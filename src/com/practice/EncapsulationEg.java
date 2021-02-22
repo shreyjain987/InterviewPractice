@@ -22,5 +22,4 @@ public class EncapsulationEg {
 		EncapsulationEg.add();
 	}
 	
-	//test 2
 }
