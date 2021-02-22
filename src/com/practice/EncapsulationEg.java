@@ -21,5 +21,6 @@ public class EncapsulationEg {
 		// TODO Auto-generated method stub		
 		EncapsulationEg.add();
 	}
+	
 
 }
