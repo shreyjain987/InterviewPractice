@@ -36,6 +36,32 @@ public class ReverseArray {
 		// TODO Auto-generated method stub
 		int[] arr = { 10, 20, 30, 40, 50 };
 		reverse(arr, arr.length);
+		
+		Integer arr2[] = { 10, 20, 30, 40, 50 };
+		reverse(arr2);
+		
+		
+		
+		
+		
+		
+		
+		
+		// ==== BEST APPROACH
+		 //Initialize array  
+        int[] arr1 = new int [] {1, 2, 3, 4, 5};  
+        System.out.println("Original array: ");  
+        for (int i = 0; i < arr1.length; i++) {  
+            System.out.print(arr1[i] + " ");  
+        }  
+        System.out.println();  
+        System.out.println("Array in reverse order: ");  
+        //Loop through the array in reverse order  
+        for (int i = arr1.length-1; i >= 0; i--) {  
+            System.out.print(arr1[i] + " ");  
+        }  
+		
+		
 	}
 
 }

@@ -19,14 +19,17 @@ public class HashMapExample {
 		hmap.put(3, "Anuj");
 
 		// print hashmap
+		System.out.println("===print hashmap===");
 		System.out.println(hmap);
 
 		// print Key
 		Set kset = hmap.keySet();
+		System.out.println("===print value key===");
 		System.out.println(kset);
 
 		// print value using collection
 		Collection c = hmap.values();
+		System.out.println("===print value using collection===");
 		System.out.println(c);
 
 		System.out.println("Key = " + kset + " & value = " + c);
@@ -38,11 +41,11 @@ public class HashMapExample {
 		Iterator itr = eset.iterator();
 		while (itr.hasNext()) {
 			Map.Entry m1 = (Map.Entry) itr.next();
+			System.out.println("Key value");
 			System.out.println(m1);
 			if (m1.getKey().equals(12)) {
 				m1.setValue("Shrey");
 			}
-
 			System.out.println(m1);
 		}
 

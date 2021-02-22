@@ -27,8 +27,7 @@ public class AddArrayInHashMap {
 		hm2.put("Language", al2);
 		
 		System.out.println(hm2.get("Language"));
-		
-		
+			
 	}
 
 }
